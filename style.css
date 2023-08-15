@@ -70,8 +70,8 @@ body {
 
 .conteudo-principal-escrito-botao {
   background-color: #ECD6C4;
-  width:200px;
-  height: 180px;
+  width:100px;
+  height: 100px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -79,6 +79,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: #2F2325;
+  
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -112,6 +113,46 @@ body {
   font-weight: 300;
   font-size: 18px;
   color: #ECD6C4;
+}
+.form {
+  /*centralizar o formulário*/
+  margin: 0 auto;
+  width: 300px;
+  /*bordas visiveis*/
+  padding: 2em;
+  border: 1px solid #0000;
+  border-radius: 1em;
+}
+  form div+div{
+    margin-top: 1em;
+  }
+.label{
+  /*todas as labels alinhadas e do mesmo tamanho*/
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+input,
+  /*todos os campos de textosconfigurados iguais*/
+textarea{
+  font: 1em sans-serif;
+  /*tamanho de campos iguais*/
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*harmozização look e feel das bordas nos campos de texto*/
+  border 2px solid #999;
+  /*alinhar corretamente os campos de textos de várias linhas*/
+  vertical-align:top;
+  /*espaço para digitar texto codigo: height: 2em; */
+  /*redimensionamento vertical disponivel para o usuário*/
+  resize: vertical;
+}
+input:focus,
+textarea:focus{
+border-color: #0000;  
+}
+
 }
 
 .rodape {
