@@ -21,12 +21,13 @@ body {
 }
 
 .cabecalho-imagem {
-  height: 80px;
+  height: 50px;
+  
 }
 
 .cabecalho-menu {
   display: flex;
-  gap: 32px;
+  gap: 30px;
 }
 
 .cabecalho-menu-item {
@@ -37,7 +38,7 @@ body {
 }
 
 .conteudo {
-  margin-bottom: 48px;
+  margin-bottom: 40px;
   border-top: 0.4px solid #FFF2E7;
 }
 
@@ -116,7 +117,7 @@ body {
 }
 .form {
   /*centralizar o formulário*/
-  margin: 0 auto;
+  margin: 1 auto;
   width: 300px;
   /*bordas visiveis*/
   padding: 2em;
@@ -141,7 +142,7 @@ textarea{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /*harmozização look e feel das bordas nos campos de texto*/
-  border 2px solid #999;
+  border 2px solid #9999;
   /*alinhar corretamente os campos de textos de várias linhas*/
   vertical-align:top;
   /*espaço para digitar texto codigo: height: 2em; */
