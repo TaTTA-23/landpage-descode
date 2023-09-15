@@ -14,5 +14,7 @@
 *  Mapa de localização
 *  Formulário para coletar cadastro
 *  Rodapé com a frase criado por seunome
+* Mudar as tags do site para tags semânticas - caso não tenha utilizado anteriormente; acrescentar ou modificar os atributos; acrescentar meta tags; incluir mapa de imagem e adicionar imagem com svg - caso ache necessário.
+
 
 Você poderá adicionar outros itens se desejar.
